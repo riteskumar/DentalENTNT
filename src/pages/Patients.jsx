@@ -2,9 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import PatientForm from "../components/PatientForm.jsx";
 import PatientTable from "../components/PatientTable.jsx";
-
-
-import PatientDetailsModal from "../components/patientdetailsmodal.jsx";
+import PatientDetailsModal from "../components/PatientDetailsModal.jsx";
 const Patients = () => {
   const { user } = useSelector((state) => state.auth);
   const [hoveredButton, setHoveredButton] = useState(false);
