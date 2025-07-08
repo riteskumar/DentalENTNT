@@ -13,8 +13,9 @@ import Dashboard from "./pages/Dashboard.jsx";
 import AdminPanel from "./pages/AdminPanel.jsx";
 import Patients from "./pages/Patients.jsx";
 import NotFound from "./pages/NotFound.jsx";
-import AppointmentForm from "./pages/appointmentform.jsx";
-import AppointmentList from "./pages/appointmentlist.jsx";
+import AppointmentForm from "./pages/AppointmentForm.jsx";
+
+import AppointmentList from "./pages/AppointmentList.jsx";
 import Calendar from "./pages/Calendar.jsx";
 
 function App() {
