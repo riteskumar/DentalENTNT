@@ -9,7 +9,7 @@ export const loginUser = createAsyncThunk(
     try {
       // Mock users instead of API call
       const users = [
-        { id: "1", role: "admin",username:"ENTNT Executive",email: "admin", password: "admin123" },
+        { id: "1", role: "admin",username:"ENTNT Executive",email: "admin@entnt.in", password: "admin123" },
         { id: "2", role: "patient",username:"John" , email: "john@entnt.in", password: "patient123", patientId: "p1" }
       ];
 
