@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AppointmentDetails from "./appointmentdetails";
+import AppointmentDetails from "./AppointmentDetails";
 const PatientDetailsModal = ({ patient, onClose, onUpdateAppointment }) => {
   console.log(patient);
   const [selectedAppointment, setSelectedAppointment] = useState(null);

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux'; // Import useDispatch
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { addAppointment } from '../store/appointmentSlice'; // Import the addAppointment action
-import FileUpload from '../components/fileupload';
+import FileUpload from '../components/FileUpload';
 import { validateForm } from '../utils/formValidation';
 
 const AppointmentForm = () => {

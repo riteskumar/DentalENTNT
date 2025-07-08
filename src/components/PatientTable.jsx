@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PatientDetailsModal from "./patientdetailsmodal";
+import PatientDetailsModal from "./PatientDetailsModal";
 
 const PatientTable = ({
   patients,
